@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- CDN引入，依赖三个包：react、react-dom、babel -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <script type="text/babel">
+      const root = ReactDOM.createRoot(document.querySelector("#root"));
+
+      // 定义颜色数组
+      const colorList = [
+        "#ff0000",
+        "#ff7f00",
+        "#ffcc00",
+        "#32cd32",
+        "#0000ff",
+        "#4b0082",
+        "#8a2be2",
+      ];
+
+      // 将点击次数定义成变量
+      let time = 0;
+
+      // 监听按钮的点击
+      const btnClick = () => {
+        time = time + 1;
+        rootRender();
+      };
+
+      // 3.重新封装一个渲染函数
+      const rootRender = () => {
+        // 获取当前点击次数对应的颜色
+        const colorIndex = time % colorList.length;
+        const buttonStyle = { color: colorList[colorIndex] };
+
+        root.render(
+          <div>
+            <h2 style={buttonStyle}>你已经点击了{time}次</h2>
+            <button onClick={btnClick}>点我变彩虹色🌈</button>
+            {time >= 10 && <div>你触发隐藏成就：彩虹大师！</div>}
+          </div>
+        );
+      };
+
+      // 初始渲染
+      rootRender();
+    </script>
+  </body>
+</html>

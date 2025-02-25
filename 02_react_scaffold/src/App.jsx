@@ -5,9 +5,9 @@ import UserInfo from "./components/UserInfo";
 function App(){
 return(
   <div>
-    {/* <HelloWorld /> */}
+    <HelloWorld />
     {/* <TaskList /> */}
-    <UserInfo />
+    {/* <UserInfo /> */}
     </div>
 )
 }

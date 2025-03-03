@@ -1,12 +1,18 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
-const BookInput = ({ onSubmit, onCancel }) => {
+const BookInput = ({ initialData, onSubmit, onCancel }) => {
   const [formData, setFormData] = useState({
     cover: '',
     title: '',
     author: '',
     price: ''
   });
+
+  useEffect(() => {
+    if (initialData) {
+      setFormData(initialData);
+    }
+  }, [initialData]);
 
   const handleChange = (e) => {
     setFormData({

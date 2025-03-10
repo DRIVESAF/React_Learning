@@ -1,0 +1,13 @@
+nav a {
+  text-decoration: none;
+  color: inherit;
+  color: #53adff;
+  margin: 5px;
+}
+
+nav a.active {
+  color: white;
+  background-color: #53adff;
+  padding: 0.75rem;
+  font-weight: bold;
+}

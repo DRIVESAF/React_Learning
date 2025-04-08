@@ -1,0 +1,84 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "现代前端构建工具：Vite vs Webpack",
+      "body": "在前端工程化领域，构建工具的选择至关重要。Vite作为新一代构建工具，以其极速的冷启动和热更新能力，正在逐渐改变开发者的开发体验。本文将深入比较Vite和Webpack的优势与使用场景，帮助开发者做出最适合的选择。",
+      "image": "https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg",
+      "author": "张明",
+      "date": "2024-01-15"
+    },
+    {
+      "id": "2",
+      "title": "前端包管理工具的演进：从npm到pnpm",
+      "body": "包管理工具是前端工程化的核心支柱之一。本文将探讨从npm到yarn，再到pnpm的演进历程，分析pnpm如何通过其创新的硬链接机制解决了传统包管理工具的痛点，以及为什么越来越多的项目选择使用pnpm。",
+      "image": "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg",
+      "author": "李华",
+      "date": "2024-01-14"
+    },
+    {
+      "id": "3",
+      "title": "前端自动化测试最佳实践",
+      "body": "自动化测试是保证代码质量的重要手段。本文将介绍前端自动化测试的各个层面，从单元测试到集成测试，再到端到端测试，并分享如何使用Jest、React Testing Library和Cypress构建完整的测试体系。",
+      "image": "https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg",
+      "author": "王芳",
+      "date": "2024-01-13"
+    },
+    {
+      "id": "4",
+      "title": "现代前端CI/CD实践指南",
+      "body": "持续集成和持续部署（CI/CD）是现代前端工程化不可或缺的一环。本文将详细介绍如何使用GitHub Actions构建自动化的CI/CD流程，包括代码检查、测试、构建和部署等环节。",
+      "image": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg",
+      "author": "赵伟",
+      "date": "2024-01-12"
+    },
+    {
+      "id": "5",
+      "title": "前端代码规范与质量控制",
+      "body": "代码规范和质量控制是团队协作的基础。本文将分享如何通过ESLint、Prettier、StyleLint等工具建立统一的代码规范，以及如何通过Husky和lint-staged在提交代码时自动进行代码检查。",
+      "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg",
+      "author": "陈静",
+      "date": "2024-01-11"
+    },
+    {
+      "id": "6",
+      "title": "前端模块化开发与组件库设计",
+      "body": "模块化开发和组件库设计是提高代码复用率和开发效率的关键。本文将探讨如何设计和开发一个企业级组件库，包括组件设计原则、文档生成、版本管理等方面。",
+      "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg",
+      "author": "刘强",
+      "date": "2024-01-10"
+    },
+    {
+      "id": "7",
+      "title": "前端性能优化工程化方案",
+      "body": "性能优化是前端工程化中的重要议题。本文将介绍如何通过构建优化、资源压缩、懒加载、预加载等技术手段，结合工程化工具实现前端应用的性能优化。",
+      "image": "https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg",
+      "author": "孙雪",
+      "date": "2024-01-09"
+    },
+    {
+      "id": "8",
+      "title": "微前端架构实践",
+      "body": "微前端是解决大型前端应用架构问题的新思路。本文将分享微前端的实现原理，以及如何使用single-spa或qiankun框架构建微前端应用，实现应用间的解耦和独立部署。",
+      "image": "https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg",
+      "author": "周明",
+      "date": "2024-01-08"
+    },
+    {
+      "id": "9",
+      "title": "前端监控系统搭建指南",
+      "body": "前端监控是保证应用质量的重要手段。本文将介绍如何搭建前端监控系统，包括性能监控、错误监控、用户行为分析等方面，以及如何通过工程化手段实现监控数据的收集和分析。",
+      "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg",
+      "author": "吴婷",
+      "date": "2024-01-07"
+    },
+    {
+      "id": "10",
+      "title": "现代前端开发环境配置",
+      "body": "一个高效的开发环境是提升开发效率的基础。本文将详细介绍如何配置现代前端开发环境，包括编辑器配置、开发工具选择、开发环境搭建等内容，帮助开发者打造理想的开发环境。",
+      "image": "https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg",
+      "author": "郭峰",
+      "date": "2024-01-06"
+    }
+  ]
+}
